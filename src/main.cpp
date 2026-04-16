@@ -70,7 +70,7 @@ void setup() {
   startDisplay();           // Paso 3. Inicializa la pantalla OLED
   // Si no hay credenciales, iniciar modo provisioning (AP)
   if (!hasWiFiCredentials()) {
-    displayConnecting("Modo Configuracion AP");
+    displayConnecting("Modo Configuracion Ap");
     startProvisioningAP();
     return; // el loop manejará el portal
   }
