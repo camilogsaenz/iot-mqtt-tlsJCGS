@@ -47,7 +47,7 @@ void setup() {
   // Usar la versi?n guardada en memoria no vol?til (si existe) o la constante por defecto
   String firmwareVersion = getFirmwareVersion();
   Serial.println("\n");
-  Serial.println("========================================");
+  Serial.println("=======================================");
   Serial.println("  IoT MQTT TLS Device");
   Serial.print("  Firmware Version: ");
   Serial.println(firmwareVersion);
