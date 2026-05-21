@@ -91,7 +91,7 @@ void setup() {
   Serial.println("=========================================");
   Serial.print("Sistema inicializado - Firmware>> ");
   Serial.println(firmwareVersion);
-  Serial.println("=======================================");
+  Serial.println("========================================");
   Serial.println();
 }
 
